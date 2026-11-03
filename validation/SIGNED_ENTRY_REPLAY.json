@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "medium": "/fs/sda0",
+      "decoded_exact": true,
+      "system_calls": 1,
+      "commands": [
+        "cd /tmp && chmod +x a && ./a"
+      ],
+      "output_bytes": 7565,
+      "imports": [
+        "fclose",
+        "fopen",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "malloc",
+        "system"
+      ],
+      "qnx_os_execution": false
+    },
+    {
+      "medium": "/fs/sdb0",
+      "decoded_exact": true,
+      "system_calls": 1,
+      "commands": [
+        "cd /tmp && chmod +x a && ./a"
+      ],
+      "output_bytes": 7565,
+      "imports": [
+        "fclose",
+        "fopen",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "malloc",
+        "system"
+      ],
+      "qnx_os_execution": false
+    },
+    {
+      "medium": "/fs/usb0_0",
+      "decoded_exact": true,
+      "system_calls": 1,
+      "commands": [
+        "cd /tmp && chmod +x a && ./a"
+      ],
+      "output_bytes": 7565,
+      "imports": [
+        "fclose",
+        "fopen",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "malloc",
+        "system"
+      ],
+      "qnx_os_execution": false
+    },
+    {
+      "medium": "absent",
+      "decoded_exact": false,
+      "system_calls": 1,
+      "commands": [
+        "cd /tmp && chmod +x a && ./a"
+      ],
+      "output_bytes": 0,
+      "imports": [
+        "fopen",
+        "system"
+      ],
+      "qnx_os_execution": false
+    }
+  ],
+  "vehicle_execution": false,
+  "signed_entry_sha256": "4ad39f734505fba38707486a10e961f46ebbc0eba5c8fc71362aa5c3dd419657",
+  "decoded_installer_sha256": "82eea6716013d5f95e917226ae9ea9745a449ea62685571ebb309154aa2aea90"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "Data/AUZ",
+    "sha256": "405d0ac80ac50ee25c12cc2c23f3f6cc10dce380b5c79f0c7c356374c14f1646"
+  },
+  {
+    "path": "Data/ExceptionList.fec_2017327-0730/0/dummy.txt",
+    "sha256": "b5a2c96250612366ea272ffac6d9744aaf4b45aacd96aa7cfcb931ee3b558259"
+  },
+  {
+    "path": "Data/ExceptionList.fec_2017327-0730/0/installer.txt",
+    "sha256": "683ff8baf1b855313ee6ce41cd3a9b11cfd898b7a50c52d9b2c6942202d48627"
+  },
+  {
+    "path": "Data/MMX2P_POSTSCRIPT.script_2021623-0210/0/install.sh",
+    "sha256": "290de75dad95c2d9f39962e023e96f946780cc351568bfc5b625163a527082cc"
+  },
+  {
+    "path": "Data/MMX2P_POSTSCRIPT.script_2021623-0210/0/installer.txt",
+    "sha256": "60c19e2cd23eebe32dc5a4e1f6b397e4174ed0a837b749558f638a29fdc112cb"
+  },
+  {
+    "path": "Meta/auto.mnf",
+    "sha256": "9d8efb3689c59f75070500b63c60ee7b32549f558339c0ffe96879ff675311f4"
+  },
+  {
+    "path": "Meta/auto.mnf.cks",
+    "sha256": "f80090b84526c57e332a994536facf4f6a35e30e9fe39226c234b733f6d50230"
+  },
+  {
+    "path": "Meta/auto.mnf_cks_S.sig",
+    "sha256": "8c63bd48a4eb69899ab96730fb1c2b51a751149a3a4e2753a9286a2e9b446927"
+  },
+  {
+    "path": "Meta/ExceptionList/9999.0.0.mnf",
+    "sha256": "f5cd8c1011d3bfdad9ff0925c0bfda850b7f940a249627e3cff330f111403be8"
+  },
+  {
+    "path": "Meta/ExceptionList/fec/9999.0.0.mnf",
+    "sha256": "5fb8012671796eb2d0d5777b6ce5d6cbb55078afa8afffc32037f98307c36585"
+  },
+  {
+    "path": "Meta/MMX2P_POSTSCRIPT/1.0.0.mnf",
+    "sha256": "e567af09283833b9326b6ab41b86318e787780e9ae28221015ea5f51d88c5e43"
+  },
+  {
+    "path": "Meta/MMX2P_POSTSCRIPT/script/1.0.0.mnf",
+    "sha256": "91c418ae5684acd6ed1b18b120e9713f6e42b833a17c2315b0cde5ad650b620b"
+  }
+]

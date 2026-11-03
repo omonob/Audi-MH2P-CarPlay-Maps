@@ -1,0 +1,73 @@
+{
+  "host": "Windows Git Bash with rewritten fixture paths and mocked QNX APIs",
+  "cases": [
+    {
+      "case": "success",
+      "exit": 0,
+      "expected_outcome": "installed_fixture_only",
+      "passed": true
+    },
+    {
+      "case": "fresh-persist-layout",
+      "exit": 0,
+      "expected_outcome": "installed_fixture_only",
+      "passed": true
+    },
+    {
+      "case": "existing-install",
+      "exit": 40,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "wrong-mu",
+      "exit": 41,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "missing-version",
+      "exit": 41,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "corrupt-payload",
+      "exit": 42,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "duplicate-manifest",
+      "exit": 42,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "ambiguous-classpath",
+      "exit": 43,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "post-activation-failure",
+      "exit": 45,
+      "expected_outcome": "rollback_original_entrypoints",
+      "passed": true
+    },
+    {
+      "case": "prior-result",
+      "exit": 40,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    },
+    {
+      "case": "non-arm",
+      "exit": 41,
+      "expected_outcome": "reject_without_entrypoint_changes",
+      "passed": true
+    }
+  ],
+  "vehicle_validation": "NOT_PERFORMED",
+  "power_loss_atomicity": "NOT_PROVEN"
+}

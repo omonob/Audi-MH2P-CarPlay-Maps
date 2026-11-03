@@ -1,0 +1,9 @@
+Package-Date: 2026-10-24
+NoCardPatch.java 与 CardFilter.java 为此次变体的实际字节码改造源代码。
+VerifyNoCard.java 复核所有class版本、操作数栈、保留接口方法和显示组合过滤行为。
+本机构建使用JDK25与ASM9.7.1（asm、asm-tree、asm-analysis三个jar）。
+CardFilter以--release 8编译，方法注入时移除其StackMap帧，保留原HMI各class版本。
+NoCardPatch运行参数：原始AppDevelopment.jar、输出jar；系统属性helper.class为CardFilter.class路径。
+VerifyNoCard运行参数：原始jar、修改后final jar、CardFilter.class。
+原生接口库保持二进制不变；安装封装继续绑定原设备，未把设备身份或密钥放入此源码包。
+此包不附原厂HMI依赖库与设备绑定重封装密钥；不把Java反编译结果冒充完整原厂编译工程。

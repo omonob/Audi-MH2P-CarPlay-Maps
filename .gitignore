@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+build/
+private*/
+internal*/
+*challenge*
+*FAZIT*
+*.key
+*.pem
+*.token
+*交接总包*
+*维护重建*
+*私有输入*
+PUBLICATION_RECEIPT.json

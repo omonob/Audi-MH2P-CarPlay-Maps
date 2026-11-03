@@ -1,0 +1,32 @@
+{
+  "libcarplay_altscreen_hook.so": {
+    "input_sha256": "ab20bb0316c71971a6f591ef090dce1e13c1422c082ceb03209d22ebd9cda17a",
+    "output_sha256": "8671ffdd9ba307486585be9e468a79aca9072ce00a2bf007dd79cb8f610258bb",
+    "elf_class": 32,
+    "machine": "ARM",
+    "gate_virtual_address": "0x5198",
+    "gate_file_offset": "0x5198",
+    "record_file_offset": "0x8230",
+    "changed_file_bytes": 132,
+    "permitted_patch_bytes": 132,
+    "record_bytes_zeroed": 128,
+    "all_other_bytes": "UNCHANGED",
+    "thumb_return_tests": 4,
+    "identity_io_calls": 0
+  },
+  "libcarplay_rgi_hook.so": {
+    "input_sha256": "f6f574c3c2632f6d80a09fccb4c3fa135ea76df83f1e0c937ed43ad651af476f",
+    "output_sha256": "b48f48aa8c2468c05d91932141e550a0a9c20e3e4f944fb7ede4d7ee9de33441",
+    "elf_class": 32,
+    "machine": "ARM",
+    "gate_virtual_address": "0x4194",
+    "gate_file_offset": "0x4194",
+    "record_file_offset": "0x50c0",
+    "changed_file_bytes": 132,
+    "permitted_patch_bytes": 132,
+    "record_bytes_zeroed": 128,
+    "all_other_bytes": "UNCHANGED",
+    "thumb_return_tests": 4,
+    "identity_io_calls": 0
+  }
+}

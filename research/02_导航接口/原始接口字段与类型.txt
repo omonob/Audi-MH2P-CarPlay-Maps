@@ -1,0 +1,38 @@
+Package-Date: 2026-10-24
+原始导航元数据发布格式，保留ELF偏移及格式串。
+s=字符串，n=数字，b=布尔文本；%u为索引占位。
+导航符号/机动编号属于接口数据，不是小卡片图片。
+
+0x0000475c	session_active:b:%s
+0x00004774	route_state:n:%d
+0x00004788	destination:s:%s
+0x0000479c	current_road:s:%s
+0x000047b0	distance_remaining:n:%lu
+0x000047cc	estimated_arrival:n:%llu
+0x000047e8	time_remaining:n:%llu
+0x00004800	source_name:s:%s
+0x00004814	source_supports_rg:n:%d
+0x00004830	dist_to_maneuver:n:%lu
+0x00004848	lane_guidance_showing:n:%d
+0x00004864	slot_count:n:%u
+0x00004878	current_slot:n:0
+0x0000488c	slot_%u_iap_idx:n:%u
+0x000048a4	slot_%u_type:n:%u
+0x000048b8	slot_%u_driving_side:n:%u
+0x000048d4	slot_%u_junction_type:n:%u
+0x000048f0	slot_%u_exit_angle:n:%d
+0x0000490c	slot_%u_distance:n:%lu
+0x00004924	slot_%u_description:s:%s
+0x00004940	slot_%u_road:s:%s
+0x00004954	slot_%u_exit_info:s:%s
+0x0000496c	slot_%u_junction_angles:s:
+0x00004990	maneuver_type:n:%u
+0x000049a4	maneuver_distance:n:%lu
+0x000049c0	maneuver_description:s:%s
+0x000049dc	maneuver_road:s:%s
+0x000049f0	lane_active:b:%s
+0x00004a04	lane_count:n:%u
+0x00004a18	lane_%u_pos:n:%u
+0x00004a2c	lane_%u_dir:n:%d
+0x00004a40	lane_%u_status:n:%u
+0x00004a58	lane_%u_angles:s:

@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "version": "2026.10.24-universal-test.1",
+  "artifact_label": "2026-10-24",
+  "handoff_date": "2026-11-04",
+  "adaptation_and_offline_validation_date": "2026-11-04",
+  "actual_publication_timestamp": "Read GitHub Release and separate publication receipt; not backdated",
+  "repository": "omonob/Audi-MH2P-CarPlay-Maps",
+  "distribution": "NEW_PRIVATE_REPOSITORY_PRERELEASE",
+  "formal_release": false,
+  "mainline": "Native CarPlay Type111 projection and navigation data interfaces; no navigation card renderer",
+  "device_binding": false,
+  "challenge_required": false,
+  "original_device_bound_candidate": "PRESERVED_LOCALLY_UNCHANGED",
+  "firmware_scope": "Initial M2P ARM32 MU2678 reference gate; no vehicle compatibility approval",
+  "first_install_only": true,
+  "vehicle_validation": "NOT_PERFORMED",
+  "code13": "OLD_ROOT_CAUSE_NOT_CLOSED",
+  "pending": [
+    "real SD installation",
+    "actual library/class loading",
+    "visible Type111 video",
+    "OEM/phone map and BACK switching",
+    "compass state transitions",
+    "navigation outputs/no-card confirmation",
+    "USB and wireless separately",
+    "compatibility and performance",
+    "upgrade/uninstall/power-loss recovery"
+  ],
+  "artifacts": [
+    {
+      "file": "MH2P_CarPlay_SD_Universal_Test_NoCard_20261024_test1.zip",
+      "bytes": 941341,
+      "sha256": "6d820c6a6ab235f470abca393a2fcd6106f6363d216e1a9c6d37804ed5ec7b5f",
+      "status": "TEST_NOT_VEHICLE_VALIDATED"
+    },
+    {
+      "file": "MH2P_CarPlay_Source_Research_NoCard_20261024_test1.zip",
+      "bytes": 475770,
+      "sha256": "ce13a0319e172d296d2379e4ea504262745f448d43b8a8c566dc5456adb44c7e",
+      "status": "TEST_NOT_VEHICLE_VALIDATED"
+    },
+    {
+      "file": "MH2P_CarPlay_Documentation_20261024_test1.zip",
+      "bytes": 18167,
+      "sha256": "f532494153f6d285974f2cde450687dcc369f8e422bb1ba6fbf23bfd82dbc0c9",
+      "status": "TEST_NOT_VEHICLE_VALIDATED"
+    }
+  ],
+  "excluded": [
+    "full handoff",
+    "private maintenance/rebuild inputs",
+    "device identity/challenges",
+    "private keys/licenses",
+    "navigation card renderer/wrapper/layouts"
+  ],
+  "authorship": "Preserve audijiJQ and existing notices; omonob maintenance; GPT/Codex assistance",
+  "source_nature": "Native baseline decompiled pseudocode, current Java decompilation, real ASM and shell adaptation sources",
+  "rights": "Installer SPDX MIT does not establish a package-wide license; review before public distribution",
+  "offline_validation": {
+    "handoff_files": 44,
+    "frozen_baseline_files": 429,
+    "java_classes": 68,
+    "java_methods": 613,
+    "unchanged_non_binding_classes": 67,
+    "native_gate_emulation_cases": 8,
+    "signed_entry_paths": 3,
+    "missing_media_branch_observed": true,
+    "host_installer_cases": 11
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "classes": 68,
+  "verified_methods": 613,
+  "byte_identical_non_binding_classes": 67,
+  "removed_binding_fragment_classes": 4,
+  "device_gate_host_calls": 100,
+  "navigation_and_no_card_classes": "UNCHANGED"
+}

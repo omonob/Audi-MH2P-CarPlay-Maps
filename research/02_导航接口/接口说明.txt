@@ -1,0 +1,12 @@
+Package-Date: 2026-10-24
+保留的导航接口与边界
+
+1. libcarplay_rgi_hook.so 保留 iAP2/AirPlay 导航消息识别、wireless/transport 处理及 /tmp/cluster_cp.state 数据发布。
+2. 保留道路、转向目标、城市、下一机动距离/单位、剩余距离/时间、ETA、车道、环岛/机动描述与导航状态的数据处理。
+3. 保留 Java CombiBAPServiceNavi 相关数据更新、Komo元数据写入、publishPhoneEta、CarPlay缩放及布局协议。
+4. Komo元数据发布与卡片presentation标志解耦；不推进KDK窗口/可见状态。
+5. 小卡片原有 navigation DInt/EGL绘制库、navigation包装器、ctl.bundle与plate/pos/layout素材全部排除。
+6. Java卡片首帧握手定时类$10及图形提示Runnable$11已排除；KDK图形呈现入口为无操作兼容桩。
+7. 手机副屏组合过滤displayable20，保留其余组合元素及62；原厂地图33/手机副屏62切换保留。
+8. 原厂AirPlay/DInt实现没有随原包提供；Native C是反编译伪代码，不是可直接编译的原始作者源码。
+9. 时间统一指资料标注、文件和压缩条目日期；超时、心跳、System.currentTimeMillis和实时ETA保持原逻辑。
