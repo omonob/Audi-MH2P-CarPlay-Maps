@@ -57,7 +57,7 @@
     "private keys/licenses",
     "navigation card renderer/wrapper/layouts"
   ],
-  "authorship": "Preserve audijiJQ and existing notices; omonob maintenance; GPT/Codex assistance",
+  "authorship": "omonob maintenance; LuKa (@luka-dev) invited joint developer; third-party copyright and license notices retained separately",
   "source_nature": "Native baseline decompiled pseudocode, current Java decompilation, real ASM and shell adaptation sources",
   "rights": "Installer SPDX MIT does not establish a package-wide license; review before public distribution",
   "offline_validation": {

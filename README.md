@@ -47,7 +47,7 @@ V1 公开版沿用此前离线验证的功能载荷，内部构建标识仍为 `
 
 ## 作者与授权
 
-保留原包作者 **audijiJQ**（原安装脚本标注：<https://github.com/audijiJQ>）及原有标识。当前项目整理与测试维护：**omonob**；GPT／Codex 协助分析、适配和文档整理，不能据此取代原作者。
+本项目维护与联合开发署名：**[omonob](https://github.com/omonob)**、**[LuKa（@luka-dev）](https://github.com/luka-dev)**。当前项目整理与测试维护由 omonob 负责；LuKa 的协作邀请状态如下。
 
 **联合开发邀请：[LuKa（@luka-dev）](https://github.com/luka-dev)**。已向其发出本仓库写入权限邀请，待本人接受；具体贡献按后续提交与 PR 如实记录。完整署名和角色见 [AUTHORS.md](AUTHORS.md)。
 

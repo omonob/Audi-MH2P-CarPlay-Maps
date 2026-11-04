@@ -1,8 +1,8 @@
-# 作者、授权与反编译声明
+# 第三方来源、版权与反编译声明
 
-原包安装源码标注 `Copyright (c) 2026 audijiJQ`、作者地址 <https://github.com/audijiJQ> 和 `SPDX-License-Identifier: MIT`。相关来源标识保留，当前维护者不冒称其原创。
+原包安装源码标注 `Copyright (c) 2026 audijiJQ` 和 `SPDX-License-Identifier: MIT`。原安装脚本的第三方版权及适用许可声明保留在此，不列入本项目联合署名表；保留这些声明不表示原包作者参与、支持或认可本项目。
 
-本轮独立适配／测试与资料整理由 omonob 维护，GPT／Codex 提供辅助。本轮源码材料并不自动表示全部模块已获得相同的再分发或开源授权；没有把安装脚本的 MIT 标注扩展到其他 ELF、Java、原厂框架和反编译结果。
+本轮独立适配／测试与资料整理由 omonob 维护。本轮源码材料并不自动表示全部模块已获得相同的再分发或开源授权；没有把安装脚本的 MIT 标注扩展到其他 ELF、Java、原厂框架和反编译结果。
 
 LuKa（[@luka-dev](https://github.com/luka-dev)）列为**受邀联合开发者**：当前仓库写入邀请待本人接受。该联合署名记录协作邀请，不表示其已经完成本仓库的开发、审查或实车验证，也不改变原作者和第三方权利。后续实际贡献按提交与 PR 更新，详见 [AUTHORS.md](AUTHORS.md)。
 
