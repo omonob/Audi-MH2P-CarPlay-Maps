@@ -49,6 +49,8 @@ V1 公开版沿用此前离线验证的功能载荷，内部构建标识仍为 `
 
 保留原包作者 **audijiJQ**（原安装脚本标注：<https://github.com/audijiJQ>）及原有标识。当前项目整理与测试维护：**omonob**；GPT／Codex 协助分析、适配和文档整理，不能据此取代原作者。
 
+**联合开发邀请：[LuKa（@luka-dev）](https://github.com/luka-dev)**。已向其发出本仓库写入权限邀请，待本人接受；具体贡献按后续提交与 PR 如实记录。完整署名和角色见 [AUTHORS.md](AUTHORS.md)。
+
 原安装脚本的 SPDX MIT 标注不能自动覆盖其他 ELF、Java、OEM 接口或反编译资料。本仓库没有宣称取得整个包的统一开源许可证；公开前仍需逐模块确认。见 [授权与来源](THIRD_PARTY_NOTICES.md)。
 
 不得上传整个交接总包、内部维护区、设备挑战、身份数据、私有重建输入或许可证密钥。今后公开资料与安装候选仍应分别审核，见 [发布边界](docs/RELEASE_POLICY.md)。
