@@ -15,7 +15,7 @@ Java `Source` 是本候选 JAR 重新反编译的结果；没有完整原厂依�
 | Native 运行库 | ARM32 ELF／Thumb；伪 C／反汇编研究资料 | 只做已知输入哈希下的受限测试 gate 修改与绑定记录清零；未冒充从 C 源码重编译 |
 | 安装与启动 | ksh、POSIX sh | 新的可阅读安装器和 decoder shim；没有隐藏挑战输入 |
 | 离线验证 | Python、pyelftools、Unicorn、Git Bash 主机隔离测试 | 不加载 QNX 库，不执行车机程序，不使用 QNX SDK／许可证或私钥 |
-| 发布资料 | Markdown、JSON、SHA256、ZIP | 私有测试预发布，源码研究资料和 SD 安装候选分开管理 |
+| 发布资料 | Markdown、JSON、SHA256、ZIP | 公开的 V1 测试预发布，源码研究资料和 SD 安装候选分开管理 |
 
 ## 本轮 Native 修改审计
 

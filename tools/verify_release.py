@@ -20,7 +20,7 @@ def checksum_zip(data):
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('directory',type=Path);args=parser.parse_args()
     root=args.directory.resolve();m=json.loads((root/'RELEASE_MANIFEST.json').read_text(encoding='utf-8'))
-    assert m['version']=='2026.10.24-universal-test.1' and not m['formal_release'] and not m['device_binding']
+    assert m['version']=='v1.0.0-test.1' and not m['formal_release'] and not m['device_binding']
     for line in (root/'SHA256SUMS.txt').read_text(encoding='utf-8-sig').splitlines():
         h,n=line.split('  ',1);p=(root/n).resolve();assert p.is_relative_to(root) and sha(p.read_bytes())==h,('Outer hash',n)
     out=[]

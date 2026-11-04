@@ -1,13 +1,16 @@
 {
   "schema": 1,
-  "version": "2026.10.24-universal-test.1",
+  "version": "v1.0.0-test.1",
   "artifact_label": "2026-10-24",
   "handoff_date": "2026-11-04",
   "adaptation_and_offline_validation_date": "2026-11-04",
   "actual_publication_timestamp": "Read GitHub Release and separate publication receipt; not backdated",
   "repository": "omonob/Audi-MH2P-CarPlay-Maps",
-  "distribution": "NEW_PRIVATE_REPOSITORY_PRERELEASE",
+  "distribution": "PUBLIC_V1_TEST_PRERELEASE",
   "formal_release": false,
+  "display_version": "通用包 V1 测试版",
+  "payload_build": "2026.10.24-universal-test.1",
+  "functional_payload_changed_from_private_test": false,
   "mainline": "Native CarPlay Type111 projection and navigation data interfaces; no navigation card renderer",
   "device_binding": false,
   "challenge_required": false,
@@ -29,21 +32,21 @@
   ],
   "artifacts": [
     {
-      "file": "MH2P_CarPlay_SD_Universal_Test_NoCard_20261024_test1.zip",
-      "bytes": 941341,
-      "sha256": "6d820c6a6ab235f470abca393a2fcd6106f6363d216e1a9c6d37804ed5ec7b5f",
+      "file": "MH2P_CarPlay_SD_Universal_V1_Test_NoCard_20261024.zip",
+      "bytes": 941430,
+      "sha256": "e6b9fb8747d0ed11a70e3a350a7a744fbbdec246a68e9e43cfa48f375ce9df60",
       "status": "TEST_NOT_VEHICLE_VALIDATED"
     },
     {
-      "file": "MH2P_CarPlay_Source_Research_NoCard_20261024_test1.zip",
-      "bytes": 475770,
-      "sha256": "ce13a0319e172d296d2379e4ea504262745f448d43b8a8c566dc5456adb44c7e",
+      "file": "MH2P_CarPlay_Source_Research_V1_Test_NoCard_20261024.zip",
+      "bytes": 476766,
+      "sha256": "f4fa9255f5be9f80d2a8373316fa7c7686f81c6117b808dfd1d0b3dd2ee76fcc",
       "status": "TEST_NOT_VEHICLE_VALIDATED"
     },
     {
-      "file": "MH2P_CarPlay_Documentation_20261024_test1.zip",
-      "bytes": 18167,
-      "sha256": "f532494153f6d285974f2cde450687dcc369f8e422bb1ba6fbf23bfd82dbc0c9",
+      "file": "MH2P_CarPlay_Documentation_V1_Test_20261024.zip",
+      "bytes": 18960,
+      "sha256": "2ce935dc44d6e1d6f7169e1572cf1d9d6e2c97c3aeb5e11dfbfddb711187d856",
       "status": "TEST_NOT_VEHICLE_VALIDATED"
     }
   ],
