@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "kind": "BILINGUAL_DOCUMENTATION_AND_UPSTREAM_REFERENCE_ONLY",
+  "documentation_date_Asia_Shanghai": "2026-11-07",
+  "previous_repository_commit": "071cb9d252e84104b4abda140b289aa669a254b1",
+  "existing_payload_tag_unchanged": "v1.0.0-test.1",
+  "existing_payload_build_unchanged": "2026.10.24-universal-test.1",
+  "new_installation_release": false,
+  "runtime_or_installer_changed": false,
+  "new_full_third_party_source_redistributed": false,
+  "upstream_zip_mirrored": false,
+  "upstream": {
+    "repository": "https://github.com/audijiJQ/AUDI_MH2P_Altscreen_Carplay-maps",
+    "commit": "117ae13c1197099d20c3d40b80a2af9aaab99e97",
+    "file": "AUDI_Altscreen_Sport_Public.zip",
+    "bytes": 1249288,
+    "sha256": "a62292f82fab79780c775f55127dbe3402bdb0eb752a8ef62027b8a1294074f4",
+    "zip_entries": 51,
+    "zip_crc_check": "PASS",
+    "package_wide_source_license_found": false,
+    "latest_runtime_extracted_or_executed": false,
+    "upstream_vehicle_claims_independently_verified": false
+  },
+  "source_nature": "Existing Java decompilation and Native pseudocode/disassembly; not a complete original-source project",
+  "historical_full_sample_details_are_latest_upstream_function_validation": false,
+  "new_vehicle_validation": false,
+  "vehicle_io": false,
+  "repository_visibility_change_authorized_or_performed": false,
+  "release_tag_or_asset_mutation": false,
+  "new_feature_claims": {
+    "center_screen_long_press_mirroring": "ROADMAP_ONLY",
+    "native_settings_menu": "ROADMAP_ONLY",
+    "apple_ecosystem_surround_audio": "FEASIBILITY_ROADMAP_ONLY_NOT_IMPLEMENTED_OR_CERTIFIED"
+  },
+  "verification_command": "python tools/verify_documentation.py --check-sums",
+  "publication_timestamp": "Read the actual GitHub documentation commit and the separate publication receipt; not backdated"
+}

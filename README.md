@@ -1,5 +1,9 @@
 # Audi MH2P CarPlay Maps — 通用包 V1 测试版
 
+[English](README.en.md) · [底层运行逻辑（中文）](docs/RUNTIME_INTERNALS.zh-CN.md) · [Runtime internals (English)](docs/RUNTIME_INTERNALS.en.md) · [完整版来源与致谢](docs/UPSTREAM_AND_FULL_EDITION.md)
+
+2026-11-07 文档更新：新增中英文底层说明、英文项目说明和完整功能版本的原作者下载入口。本仓库现有 V1 附件仍然是**无导航小卡片测试版**；本次没有替换安装包、运行库或 Java class，也没有把原作者的新公开包作为本项目已经验证的新版。需要带箭头／导航卡片的原作者完整版本，请先看[完整版来源说明](docs/UPSTREAM_AND_FULL_EDITION.md)，不要误下载旧 V1。
+
 发布版本：`v1.0.0-test.1`（V1 测试版）。资料版本标签沿用 **2026-10-24**；交接、适配与本轮离线检查日期为 **2026-11-04**。真正发布时间以 GitHub Release 的时间记录为准。
 
 V1 公开版沿用此前离线验证的功能载荷，内部构建标识仍为 `2026.10.24-universal-test.1`；安装日志中的该标识正常，不代表下载错包。这次不增加投屏功能修改，也没有新增实机验证结论。
@@ -47,6 +51,8 @@ V1 公开版沿用此前离线验证的功能载荷，内部构建标识仍为 `
 
 ## 作者与授权
 
+本项目的实现基础和大量研究资料来自 **[audijiJQ / AUDIJI](https://github.com/audijiJQ)** 的 MH2P 程序；相关 Java 阅读材料和 Native 分析材料是对已有程序的反编译研究，不是我们从零编写的完整原始源码。原作者现公开项目为 [AUDI_MH2P_Altscreen_Carplay-maps](https://github.com/audijiJQ/AUDI_MH2P_Altscreen_Carplay-maps)。保留原作者及各模块适用的版权和许可，不把第三方实现归为本项目原创；来源致谢不表示原作者参与、背书或授权了本项目的全部再分发。
+
 本项目维护与联合开发署名：**[omonob](https://github.com/omonob)**、**[LuKa（@luka-dev）](https://github.com/luka-dev)**。当前项目整理与测试维护由 omonob 负责；LuKa 的协作邀请状态如下。
 
 **联合开发邀请：[LuKa（@luka-dev）](https://github.com/luka-dev)**。已向其发出本仓库写入权限邀请，待本人接受；具体贡献按后续提交与 PR 如实记录。完整署名和角色见 [AUTHORS.md](AUTHORS.md)。
@@ -54,3 +60,11 @@ V1 公开版沿用此前离线验证的功能载荷，内部构建标识仍为 `
 原安装脚本的 SPDX MIT 标注不能自动覆盖其他 ELF、Java、OEM 接口或反编译资料。本仓库没有宣称取得整个包的统一开源许可证；公开前仍需逐模块确认。见 [授权与来源](THIRD_PARTY_NOTICES.md)。
 
 不得上传整个交接总包、内部维护区、设备挑战、身份数据、私有重建输入或许可证密钥。今后公开资料与安装候选仍应分别审核，见 [发布边界](docs/RELEASE_POLICY.md)。
+
+## 后续计划，不属于现有版本承诺
+
+- 长按按键切换中控镜像。现有 BACK 长按的原厂地图／Type111 切换不是该功能。
+- 原生设置菜单及地图、镜像、导航卡片等开关。
+- Apple 生态音频／环绕效果可行性研究。尚无 MH2P 音频实现、格式、声道或效果验证，不宣称支持 Apple Spatial Audio／Dolby Atmos，也不宣称取得相关认证。
+
+跨平台已有成果不自动代表这些功能已在 MH2P 完成。具体进展和验证日期以未来提交及版本说明为准。
